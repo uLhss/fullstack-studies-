@@ -1,0 +1,52 @@
+<!DOCTYPE html> → diz que é uma página HTML.
+
+<html lang="pt-BR"> → envolve tudo; define o idioma.
+
+<head> → informações da página (não visíveis).
+
+<meta charset="utf-8"> → garante acentuação correta.
+
+<title> → nome na aba do navegador.
+
+<body> → conteúdo visível.
+
+<h1> / <p> → título e parágrafo que você vê na página.
+-----------------------------------------------------------------------
+
+HTML = linguagem usada para estruturar uma página.
+JavaScript = lógica e ação.
+CSS = estilo e aparência.
+
+
+<h1>Isso é um título</h1>
+<h1> = abre o título
+</h1> = fecha o título
+<h2>Subtítulo</h2>
+
+Tudo no HTML funciona assim:
+<p> → parágrafo
+<button> → botão
+<input> → campo de texto para o usuario digitar algo
+<img> → imagem
+
+h1 {
+  color: red;
+Isso pinta o título de vermelho.
+
+JavaScript = lógica e ação.
+Tudo que “acontece” vem daqui:
+clicar e algo mudar
+mensagem aparecer
+calcular algo
+validar campo
+criar interações
+Exemplo:
+
+alert("Olá!");
+O JS fala com o HTML usando document.getElementById — isso pega um elemento do HTML.
+
+
+
+
+
+
