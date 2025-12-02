@@ -45,7 +45,30 @@ Exemplo:
 alert("Olá!");
 O JS fala com o HTML usando document.getElementById — isso pega um elemento do HTML.
 
+✔ Tags que fecham
 
+<div>...</div>
+<p>...</p>
+<button>...</button>
+<h1>...</h1>
+
+✔ Tags que NÃO fecham (self-closing)
+
+<img>
+<br>
+<hr>
+<input>
+<meta>
+<link>
+<source>
+---------------------------------------
+<div style="background: yellow;">
+    Isso é um bloco inteiro.
+</div>
+SPAN (linha)
+html
+Copiar código
+<p>Essa frase tem uma <span style="color: blue;">palavra azul</span>.</p>
 
 
 
